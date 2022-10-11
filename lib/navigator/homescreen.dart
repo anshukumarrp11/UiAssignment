@@ -1,4 +1,3 @@
-import 'package:apilearning/learn.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -180,6 +179,7 @@ class HomeScreen extends StatelessWidget {
                           ],
                         ),
                       ),
+                      //PageView(),
                       Container(
                         margin:
                             EdgeInsets.symmetric(horizontal: 15, vertical: 0),
@@ -198,6 +198,7 @@ class HomeScreen extends StatelessWidget {
                           ),
                         ),
                       ),
+
                       Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: <Widget>[
